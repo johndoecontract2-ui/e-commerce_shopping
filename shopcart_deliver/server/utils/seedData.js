@@ -1,0 +1,121 @@
+export const sampleProducts = [
+  {
+    name: "Aurora Wireless Headphones",
+    slug: "aurora-wireless-headphones",
+    category: "Audio",
+    brand: "Soniq",
+    description:
+      "Immersive 40mm drivers, active noise cancellation, and 36-hour battery life. Plush memory-foam ear cushions for all-day comfort.",
+    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80",
+    price: 4499,
+    mrp: 6999,
+    countInStock: 40,
+    isFeatured: true,
+  },
+  {
+    name: "Terra Smart Water Bottle",
+    slug: "terra-smart-water-bottle",
+    category: "Lifestyle",
+    brand: "Hydra",
+    description:
+      "Tracks your hydration and glows to remind you to drink. Keeps drinks cold for 24 hours and hot for 12.",
+    image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&q=80",
+    price: 1299,
+    mrp: 1899,
+    countInStock: 75,
+    isFeatured: true,
+  },
+  {
+    name: "Nimbus Mechanical Keyboard",
+    slug: "nimbus-mechanical-keyboard",
+    category: "Electronics",
+    brand: "KeyLab",
+    description:
+      "Hot-swappable switches, per-key RGB, and an aircraft-grade aluminium frame. A joy to type on.",
+    image: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&q=80",
+    price: 6999,
+    mrp: 8999,
+    countInStock: 25,
+    isFeatured: true,
+  },
+  {
+    name: "Lumen Desk Lamp",
+    slug: "lumen-desk-lamp",
+    category: "Home",
+    brand: "Glow",
+    description:
+      "Adjustable colour temperature, wireless charging base, and a whisper-quiet touch dimmer.",
+    image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&q=80",
+    price: 2499,
+    mrp: 3499,
+    countInStock: 60,
+    isFeatured: true,
+  },
+  {
+    name: "Vega Running Shoes",
+    slug: "vega-running-shoes",
+    category: "Fashion",
+    brand: "Stride",
+    description:
+      "Responsive foam midsole and breathable knit upper. Engineered for daily miles and race-day speed.",
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
+    price: 3999,
+    mrp: 5499,
+    countInStock: 50,
+    isFeatured: false,
+  },
+  {
+    name: "Cosmo Backpack 24L",
+    slug: "cosmo-backpack-24l",
+    category: "Lifestyle",
+    brand: "Trekr",
+    description:
+      "Weatherproof, laptop-ready, and packed with thoughtful pockets. Your everyday carry, upgraded.",
+    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
+    price: 2799,
+    mrp: 3999,
+    countInStock: 35,
+    isFeatured: false,
+  },
+  {
+    name: "Pixel Action Camera",
+    slug: "pixel-action-camera",
+    category: "Electronics",
+    brand: "GoView",
+    description:
+      "5K stabilised video, waterproof to 10m, and a bright front-facing screen for perfect framing.",
+    image: "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80",
+    price: 8999,
+    mrp: 11999,
+    countInStock: 18,
+    isFeatured: true,
+  },
+  {
+    name: "Bloom Ceramic Mug Set",
+    slug: "bloom-ceramic-mug-set",
+    category: "Home",
+    brand: "Clayworks",
+    description:
+      "Set of four hand-glazed stoneware mugs. Microwave and dishwasher safe, made to last.",
+    image: "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=600&q=80",
+    price: 1499,
+    mrp: 2199,
+    countInStock: 90,
+    isFeatured: false,
+  },
+];
+
+export const sampleUsers = [
+  {
+    name: "Admin",
+    email: "admin@shopcart.dev",
+    password: "Admin@12345",
+    role: "admin",
+  },
+  {
+    name: "Demo Customer",
+    email: "customer@shopcart.dev",
+    password: "Customer@123",
+    role: "customer",
+  },
+];
